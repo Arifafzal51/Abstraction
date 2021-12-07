@@ -14,4 +14,14 @@ class Scooter extends Vehicle{
     {
         System.out.println("starts with kick");
     }
+
+    public static void main(String[] args) {
+       //    Vehicle v = new Vehicle();
+        Car c = new Car();
+        c.start();
+        Scooter s = new Scooter();
+        s.start();
+
+
+    }
 }
