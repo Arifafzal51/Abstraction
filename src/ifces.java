@@ -1,8 +1,8 @@
-interface i1
+interface i2
 {
     void show();
 }
-class Arif implements i1
+class Samar implements i2
 {
     public void show()
     {
@@ -10,7 +10,7 @@ class Arif implements i1
     }
 
     public static void main(String[] args) {
-        Arif a = new Arif();
+        Samar a = new Samar();
         a.show();
     }
 
